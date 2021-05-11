@@ -9,6 +9,7 @@ import time
 import numpy as np
 import json
 from selenium import webdriver
+from sqlalchemy import create_engine
 
 # Create an instance of Flask
 app = Flask(__name__)
